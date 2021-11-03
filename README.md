@@ -20,5 +20,5 @@
 
 
 ## Contributors who made it possible
-[![](https://avatars.githubusercontent.com/u/23332545?v=4)](https://github.com/kapaleshreyas)
-[![](https://avatars.githubusercontent.com/u/52934260?v=4](https://github.com/Alireza-Sampour)
+[![](https://avatars.githubusercontent.com/u/23332545?size=50)](https://github.com/kapaleshreyas)
+[![](https://avatars.githubusercontent.com/u/52934260?size=50)](https://github.com/Alireza-Sampour)
