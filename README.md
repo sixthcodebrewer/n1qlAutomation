@@ -17,3 +17,8 @@
  
 #### Input- adoc file 
 #### Output-extracted n1ql queries
+
+
+## Contributors who made it possible
+[![](https://avatars.githubusercontent.com/u/23332545?v=4)](https://github.com/kapaleshreyas)
+[![](https://avatars.githubusercontent.com/u/52934260?v=4](https://github.com/Alireza-Sampour)
