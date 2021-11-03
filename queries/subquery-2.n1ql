@@ -1,0 +1,1 @@
+SELECT count(*) FROM `travel-sample` .inventory.airport t LET x = t.geo WHERE (SELECT RAW y.alt FROM x y)[0] > 6000;

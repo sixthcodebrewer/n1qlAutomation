@@ -11,12 +11,12 @@ import re
   Extracted as
    example.n1.ql
 '''
-
-with open("dummy.adoc") as f1:
+file_name= "subquery"
+with open("subqueries.adoc") as f1:
     x = [re.sub(r'\s+(?!$)', ' ', match) for match in re.findall(r'\[source[^,]*,n1ql\]\n----\n([A-Z].*?\n)(?=----)', "".join(f1.readlines()), re.DOTALL)]
 
 for i, query in enumerate(x, start=1):
-    filename = f"subquery-{str(i)}.n1ql"
+    filename = file_name+f"-{str(i)}.n1ql"
     print(i)
     with open(filename, 'a') as f2:
         f2.write(query)

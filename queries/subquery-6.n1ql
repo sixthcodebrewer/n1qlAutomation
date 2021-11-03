@@ -1,0 +1,1 @@
+SELECT * FROM keyspace1 AS k1 WHERE (SELECT … FROM k1.subdoc1.subdoc2.field3 …);
